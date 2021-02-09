@@ -1,9 +1,14 @@
-[class*="col-"] {
+.debug [class*="col-"] {
   height: 150px;
   background-color: red;
   border: 1px solid blue;
 }
 
-.blue {
-  background-color: blue;
+.contenitore-immagini {
+  margin-left: 2%;
+  text-align: center;
+}
+
+.contenitore-immagini div {
+  margin: 15px 0 15px 1%;
 }
