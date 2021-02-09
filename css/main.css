@@ -1,0 +1,9 @@
+[class*="col-"] {
+  height: 150px;
+  background-color: red;
+  border: 1px solid blue;
+}
+
+.blue {
+  background-color: blue;
+}
