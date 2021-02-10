@@ -1,6 +1,6 @@
 .debug [class*="col-"] {
-  height: 150px;
-  background-color: red;
+  min-height: 150px;
+  text-align: center;
   border: 1px solid blue;
 
 }
@@ -18,14 +18,25 @@ header .navbar .container a {
 .my_jumbotron {
   color: white;
   text-align: center;
-  background-color: #57b99d;
+  background-color: #50a98f;
+}
+.my_jumbotron span {
+  display: block;
 }
 
-
-.my_jumbotron img:last-of-type {
+.my_iconstar {
   height: 20px;
 }
 
-.my_jumbotron span {
-  display: block;
+.livello-due {
+  background-color: #50a98f;
+  text-align: center;
+}
+
+.livello-tre {
+  text-align: center;
+}
+
+.my_footer {
+  background-color: #3F546B;
 }

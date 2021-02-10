@@ -9,65 +9,63 @@
   </head>
   <body>
   <div class="debug">
-    <div class="container-fluid">
+
     <header>
 
         <!-- BS barra di navigazione -->
-        <nav class="navbar navbar-default navbar-inverse">
-          <div class="container">
+      <nav class="navbar navbar-default navbar-inverse">
+        <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        </div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+          </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
           </div><!-- /.navbar-collapse -->
-
+        </div>
       </nav>
-      </div>
+
       <!-- PARTE JUMBOTRON VERDE -->
 
 
-
-      <div class="col-xs-12">
-        <div class="my_jumbotron">
-
-          <img src="img/manjumbo.png" alt="">
-          <h1>START BOOTSTRAP</h1>
-          <img src="img/star.svg" alt="">
-          <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
-
-        </div>
-      
-    </div>
-    </header>
-    <!-- CORPO DELLA PAGINA -->
-    <main>
-      <section>
-
-        <!-- LIVELLO UNO -->
-        <!-- LIVELLO UNO TITOLO -->
+      <section class="my_jumbotron">
         <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            PORTFOLIO
+          <div class="row">
+            <div class="col-xs-12">
+                <img src="img/manjumbo.png" alt="">
+                <h1>START BOOTSTRAP</h1>
+                <img class="my_iconstar" src="img/star.svg" alt="">
+                <span>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</span>
+            </div>
           </div>
         </div>
-        </div>
+      </section>
+    </header>
+    <!-- LIVELLO UNO -->
+    <main>
+      <section class="livello-uno">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>PORTFOLIO</h2>
+              <img class="my_iconstar" src="img/star.svg" alt="">
+            </div>
+          </div>
 
-          <div class="container">
+
+
             <div class="row">
 
 
@@ -96,73 +94,77 @@
             </div>
             </div>
           </div>
-
-        <!-- LIVELLO DUE BLOCCO DI IMMAGINI -->
       </section>
-      <!-- LIVELLO TRE -->
-      <section>
+      <!-- LIVELLO DUE -->
+      <section class="livello-due">
         <div class="container">
-
-
-        <!-- LIVELLO TRE TITOLO -->
         <div class="row">
         <div class="col-xs-12">
           ABOUT
+          <img class="my_iconstar" src="img/star.svg" alt="">
         </div>
         </div>
-        <!-- LIVELLO TRE DESCRIZIONE -->
+        <!-- LIVELLO DUE DESCRIZIONE -->
         <div class="row">
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-md-6">
             prima descrizione
           </div>
-          <div class="col-xs-12">
+          <div class="col-xs-12 col-md-6">
             seconda descrizione
           </div>
         </div>
+        <div class="row">
+          <div class="col-xs-12">
+            BUTTON
+          </div>
         </div>
       </section>
 
-      <!-- LIVELLO QUATTRO - creazione del form -->
-      <section>
-
-
-
+      <!-- LIVELLO TRE - creazione del form -->
+      <section class"livello-tre">
         <!-- LIVELLO QUATTRO TITOLO -->
-        <div class="row">
-          <div class="col-xs-12">
-            CONTACT ME
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2>ABOUT</h2>
+              <img class="my_iconstar" src="img/star.svg" alt="">
+            </div>
+          </div>
+          <!-- LIVELLO QUATTRO FORM -->
+          <div class="row">
+            <div class="col-xs-12">
+                PARTE FORM
+            </div>
           </div>
         </div>
-        <!-- LIVELLO QUATTRO FORM -->
-        <div class="row">
-          <div class="col-xs-12">
-              PARTE FORM
-          </div>
-        </div>
-
       </section>
 
     </main>
 
-    <footer>
+    <footer class="my_footer">
       <!-- PARTE ALTA DEL FOOTER -->
-      <div class="row">
-      <div class="col-xs-12 col-md-4">
-        Footer-ALTO-Left
-      </div>
-      <div class="col-xs-12 col-md-4">
-        Footer-ALTO-middle
-      </div>
-      <div class="col-xs-12 col-md-4">
-        Footer-ALTO-Right
-      </div>
-      </div>
-      <!-- PARTE BASSA DEL FOOTER -->
-      <div class="col-xs-12">
-        FOOTER BASSO
+      <div class="container">
+
+
+        <div class="row">
+          <div class="col-xs-12 col-md-4">
+            Footer-ALTO-Left
+          </div>
+          <div class="col-xs-12 col-md-4">
+            Footer-ALTO-middle
+          </div>
+          <div class="col-xs-12 col-md-4">
+            Footer-ALTO-Right
+          </div>
+        </div>
+          <!-- PARTE BASSA DEL FOOTER -->
+          <div class="col-xs-12">
+          FOOTER BASSO
+          </div>
+
       </div>
     </footer>
-  </div>
+
   </div>
   </body>
 </html>
