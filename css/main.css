@@ -28,6 +28,11 @@ header .navbar .container a {
   height: 20px;
 }
 
+.livello-uno img {
+  max-width: 100%;
+}
+
+
 .livello-due {
   background-color: #50a98f;
   text-align: center;
