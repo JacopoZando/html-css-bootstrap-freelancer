@@ -4,11 +4,6 @@
   border: 1px solid blue;
 }
 
-.contenitore-immagini {
-  margin-left: 2%;
-  text-align: center;
-}
-
-.contenitore-immagini div {
-  margin: 15px 0 15px 1%;
+header .container .navbar {
+  background-color:#303e4e;
 }
