@@ -2,8 +2,30 @@
   height: 150px;
   background-color: red;
   border: 1px solid blue;
+
 }
 
-header .container .navbar {
+header .navbar {
   background-color:#303e4e;
+  margin-bottom: 0;
+
+}
+
+header .navbar .container a {
+  color: white;
+}
+
+.my_jumbotron {
+  color: white;
+  text-align: center;
+  background-color: #57b99d;
+}
+
+
+.my_jumbotron img:last-of-type {
+  height: 20px;
+}
+
+.my_jumbotron span {
+  display: block;
 }
